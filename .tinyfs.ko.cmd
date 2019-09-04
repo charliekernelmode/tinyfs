@@ -1,0 +1,1 @@
+cmd_/opt/kernel_module/module_tiny_fs/tinyfs.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /opt/kernel_module/module_tiny_fs/tinyfs.ko /opt/kernel_module/module_tiny_fs/tinyfs.o /opt/kernel_module/module_tiny_fs/tinyfs.mod.o
